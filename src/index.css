@@ -46,6 +46,8 @@ body {
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+// css for theme toggle
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
