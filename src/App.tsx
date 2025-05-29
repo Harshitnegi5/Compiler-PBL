@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CodeEditor from "./components/admin/CodeEditor";
 import TokenOutput from "./components/admin/TokenOutput";
 import { tokenize } from "./lib/lexer";
-import { FaCode } from "react-icons/fa";
+import { FaCode } from "react-icons/fa"; // code icon from react-icon library
 import ThemeToggle from "./components/admin/ThemeToggle";
 import LanguageSelector from "./components/admin/Selector";
 
@@ -13,7 +13,7 @@ export default function App() {
    const [lang, setLanguage] = useState("cpp");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gradientFrom via-background to-gradientTo text-text font-sans px-6 py-10 flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-br from-gradientFrom via-background to-gradientTo text-text font-sans px-5 py-10 flex flex-col items-center">
       <div className="absolute top-5 right-5 z-50">
         <ThemeToggle />
         
